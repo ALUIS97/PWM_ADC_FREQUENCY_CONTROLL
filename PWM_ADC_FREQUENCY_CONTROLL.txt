@@ -1,0 +1,64 @@
+Configuration	PWM_ADC_FREQUENCY_CONTROLL
+STM32CubeMX 	6.2.1
+Date	05/06/2021
+MCU	STM32F401RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1	ADC1_IN1	PA1
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH1	TIM2_CH1	PA0-WKUP
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+14	PA0-WKUP	TIM2_CH1	PWM
+15	PA1	ADC1_IN1	
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1	ADC1_IN1	PA1
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH1	TIM2_CH1	PA0-WKUP
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+14	PA0-WKUP	TIM2_CH1	PWM
+15	PA1	ADC1_IN1	
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : PWM_ADC_FREQUENCY_CONTROLL
+Project Folder : C:\Users\LUIS ARRES\STM32CubeIDE\workspace_1.6.0\PROJECTS MOOC STM32CUBEMX BASICS\ADC\PWM_ADC_FREQUENCY_CONTROLL
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.26.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
